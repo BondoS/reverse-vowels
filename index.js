@@ -8,7 +8,6 @@ let process = word => {
     })
     let i, j;
     for(i = 0, j = vowls.length - 1; i < Math.floor(vowls.length/2); i++, j--){
-        const temp = vowls[i];
         wordArr[vowls[i].index] = vowls[j].item;
         wordArr[vowls[j].index] = vowls[i].item;
     }
